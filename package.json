@@ -2,8 +2,8 @@
   "name": "fotorama-react-wrapper",
   "version": "1.0.0",
   "description": "A simple reactjs wrapper for fotorama (http://fotorama.io/)",
-  "keywords": [],
-  "main": "src/index.js",
+  "keywords": ["react", "fotorama", "gallery", "javascript"],
+  "main": "src/fotorama-react-wrapper.js",
   "dependencies": {
     "react": "16.8.3",
     "react-dom": "16.8.3",
@@ -18,10 +18,5 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+  "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"]
 }
