@@ -21,34 +21,34 @@ A simple reactjs wrapper for [fotorama.io](http://fotorama.io/)!
 
 **(Recommended)** To add dependencies for Fotorama via vanilla js, add the `imp` property
 
-```
+```JSX
 ...
 import Fotorama from 'fotorama-react-wrapper'
 
 const App = () => (
 	<div className="App">
-		<Fotorama >
+		<Fotorama imp >
 			<img src="https://s.fotorama.io/1.jpg" />
 			<img src="https://s.fotorama.io/2.jpg" />
 			<img src="https://s.fotorama.io/3.jpg" />
-		</ Fotorama>
+		</ Fotorama >
 	</div>
 )
 ```
 
 If you are manually adding dependencies for fotorama (See: [Fotorama Set-Up Pg](http://fotorama.io/#set-up) )
 
-```
+```JSX
 ...
 import Fotorama from 'fotorama-react-wrapper'
 
 const App = () => (
-	<div className="App">
+	<div className="App" >
 		<Fotorama >
 			<img src="https://s.fotorama.io/1.jpg" />
 			<img src="https://s.fotorama.io/2.jpg" />
 			<img src="https://s.fotorama.io/3.jpg" />
-		</ Fotorama>
+		</ Fotorama >
 	</div>
 )
 ```
@@ -57,7 +57,7 @@ const App = () => (
 
 > See: [Fotorama.io Customization Section](http://fotorama.io/customize/)
 
-```
+```JSX
 ...
 import Fotorama from 'fotorama-react-wrapper'
 
@@ -67,11 +67,11 @@ const App = () => (
 		   data-allowfullscreen="true"
 		   data-nav="thumbs"
 		   data-width="800"
-		   data-height="600">
+		   data-height="600" >
 			<img src="https://s.fotorama.io/1.jpg" />
 			<img src="https://s.fotorama.io/2.jpg" />
 			<img src="https://s.fotorama.io/3.jpg" />
-		</Fotorama>
+		</Fotorama >
 	</div>
 )
 ```
