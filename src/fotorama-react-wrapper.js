@@ -54,18 +54,20 @@ const example = (
 class Fotorama extends React.Component {
   // import those dep!
   componentDidMount() {
-    const dep = [
-      "https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js",
-      "https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css",
-      "https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"
-    ];
-    dep
-      .map(uri => {
-        return generateCDNImportString(uri);
-      })
-      .map(cdnTag => {
-        return addToHead(cdnTag);
-      });
+    if (this.props.imp) {
+      const dep = [
+        "https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js",
+        "https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css",
+        "https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"
+      ];
+      dep
+        .map(uri => {
+          return generateCDNImportString(uri);
+        })
+        .map(cdnTag => {
+          return addToHead(cdnTag);
+        });
+    }
   }
 
   render() {
