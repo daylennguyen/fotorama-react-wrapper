@@ -31,7 +31,7 @@ const App = () => (
 			<img src="https://s.fotorama.io/1.jpg" />
 			<img src="https://s.fotorama.io/2.jpg" />
 			<img src="https://s.fotorama.io/3.jpg" />
-		</ Fotorama >
+		</Fotorama >
 	</div>
 )
 ```
@@ -48,7 +48,7 @@ const App = () => (
 			<img src="https://s.fotorama.io/1.jpg" />
 			<img src="https://s.fotorama.io/2.jpg" />
 			<img src="https://s.fotorama.io/3.jpg" />
-		</ Fotorama >
+		</Fotorama >
 	</div>
 )
 ```
