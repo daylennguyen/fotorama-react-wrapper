@@ -53,7 +53,7 @@ const example = (
 	</>
 );
 
-class Fotorama extends React.Component {
+export default class Fotorama extends React.Component {
 	// import those dep!
 	componentDidMount() {
 		if (this.props.imp) {
@@ -83,4 +83,3 @@ class Fotorama extends React.Component {
 	}
 }
 
-exports.Fotorama;
