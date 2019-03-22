@@ -1,6 +1,6 @@
 # fotorama-react-wrapper
 
-A simple reactjs wrapper for [fotorama.io](http://fotorama.io/)!
+> A simple reactjs wrapper for [fotorama.io](http://fotorama.io/)!
 
 ### Features:
 
