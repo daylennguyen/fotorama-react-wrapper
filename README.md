@@ -1,6 +1,6 @@
 # fotorama-react-wrapper
 
-A simple reactjs wrapper for [fotorama.io](http://fotorama.io/)!
+> A simple reactjs wrapper for [fotorama.io](http://fotorama.io/)!
 
 ### Features:
 
@@ -21,7 +21,7 @@ A simple reactjs wrapper for [fotorama.io](http://fotorama.io/)!
 
 **(Recommended)** To add dependencies for Fotorama via vanilla js, add the `imp` property
 
-```
+```JSX
 ...
 import Fotorama from 'fotorama-react-wrapper'
 
@@ -38,7 +38,7 @@ const App = () => (
 
 If you are manually adding dependencies for fotorama (See: [Fotorama Set-Up Pg](http://fotorama.io/#set-up) )
 
-```
+```JSX
 ...
 import Fotorama from 'fotorama-react-wrapper'
 
@@ -57,7 +57,7 @@ const App = () => (
 
 > See: [Fotorama.io Customization Section](http://fotorama.io/customize/)
 
-```
+```JSX
 ...
 import Fotorama from 'fotorama-react-wrapper'
 
