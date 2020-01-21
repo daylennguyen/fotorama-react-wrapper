@@ -46,11 +46,11 @@ const addToHead = ele => {
 
 // No children provided? just show some example photos
 const example = (
-  <React.Fragment>
+  <div>
     <img src="https://s.fotorama.io/1.jpg" />
     <img src="https://s.fotorama.io/2.jpg" />
     <img src="https://s.fotorama.io/3.jpg" />
-  </React.Fragment>
+  </div>
 );
 
 export default class Fotorama extends React.Component {

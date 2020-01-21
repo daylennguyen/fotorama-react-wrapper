@@ -1,6 +1,6 @@
 {
 	"name": "fotorama-react-wrapper",
-	"version": "1.0.4",
+	"version": "1.0.6",
 	"description": "A simple reactjs wrapper for fotorama (http://fotorama.io/)",
 	"keywords": [
 		"react",
@@ -10,7 +10,7 @@
 	],
 	"main": "index.js",
 	"dependencies": {
-		"react": "16.8.3"
+		"react": "latest"
 	},
 	"browserslist": [
 		">0.2%",
